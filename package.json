@@ -5,7 +5,10 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node back-end/server.js"
+    "start": "node back-end/server.js",
+    "server": "nodemon back-end/server.js",
+    "client": "npm start --prefix front-end",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   },
   "devDependencies": {
     "concurrently": "^8.1.0",
+    "dotenv": "^16.1.4",
     "nodemon": "^2.0.22"
   }
 }
