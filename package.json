@@ -1,0 +1,27 @@
+{
+  "name": "proshop-traversy",
+  "version": "2.0.0",
+  "description": "\"eCommerce application using MERN stack\"",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node back-end/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RastkoAmun/proshop-traversy.git"
+  },
+  "author": "Amon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RastkoAmun/proshop-traversy/issues"
+  },
+  "homepage": "https://github.com/RastkoAmun/proshop-traversy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
